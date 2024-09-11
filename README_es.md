@@ -3,15 +3,15 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Fail2Ban Webinterface PHP para Yunohost
+# Fail2Ban Webinterface para Yunohost
 
 [![Nivel de integración](https://dash.yunohost.org/integration/f2bwiphp.svg)](https://ci-apps.yunohost.org/ci/apps/f2bwiphp/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/f2bwiphp.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/f2bwiphp.maintain.svg)
 
-[![Instalar Fail2Ban Webinterface PHP con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=f2bwiphp)
+[![Instalar Fail2Ban Webinterface con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=f2bwiphp)
 
 *[Leer este README en otros idiomas.](./ALL_README.md)*
 
-> *Este paquete le permite instalarFail2Ban Webinterface PHP rapidamente y simplement en un servidor YunoHost.*  
+> *Este paquete le permite instalarFail2Ban Webinterface rapidamente y simplement en un servidor YunoHost.*  
 > *Si no tiene YunoHost, visita [the guide](https://yunohost.org/install) para aprender como instalarla.*
 
 ## Descripción general
@@ -25,12 +25,11 @@ In the web interface you can also manually ban / release IP's.
 
 ## Capturas
 
-![Captura de Fail2Ban Webinterface PHP](./doc/screenshots/screenshot.jpg)
+![Captura de Fail2Ban Webinterface](./doc/screenshots/screenshot.jpg)
 
 ## Documentaciones y recursos
 
 - Documentación usuario oficial: <https://yunohost.org/apps>
-- Documentación administrador oficial: <https://yunohost.org/packaging_apps>
 - Repositorio del código fuente oficial de la aplicación : <https://github.com/ewilly/fail2ban-web-interface-php>
 - Catálogo YunoHost: <https://apps.yunohost.org/app/f2bwiphp>
 - Reportar un error: <https://github.com/YunoHost-Apps/f2bwiphp_ynh/issues>

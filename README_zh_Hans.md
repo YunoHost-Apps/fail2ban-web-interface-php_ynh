@@ -3,15 +3,15 @@
 请勿手动编辑。
 -->
 
-# YunoHost 上的 Fail2Ban Webinterface PHP
+# YunoHost 上的 Fail2Ban Webinterface
 
 [![集成程度](https://dash.yunohost.org/integration/f2bwiphp.svg)](https://ci-apps.yunohost.org/ci/apps/f2bwiphp/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/f2bwiphp.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/f2bwiphp.maintain.svg)
 
-[![使用 YunoHost 安装 Fail2Ban Webinterface PHP](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=f2bwiphp)
+[![使用 YunoHost 安装 Fail2Ban Webinterface](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=f2bwiphp)
 
 *[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
-> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Fail2Ban Webinterface PHP。*  
+> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Fail2Ban Webinterface。*  
 > *如果您还没有 YunoHost，请参阅[指南](https://yunohost.org/install)了解如何安装它。*
 
 ## 概况
@@ -25,12 +25,11 @@ In the web interface you can also manually ban / release IP's.
 
 ## 截图
 
-![Fail2Ban Webinterface PHP 的截图](./doc/screenshots/screenshot.jpg)
+![Fail2Ban Webinterface 的截图](./doc/screenshots/screenshot.jpg)
 
 ## 文档与资源
 
 - 官方用户文档： <https://yunohost.org/apps>
-- 官方管理文档： <https://yunohost.org/packaging_apps>
 - 上游应用代码库： <https://github.com/ewilly/fail2ban-web-interface-php>
 - YunoHost 商店： <https://apps.yunohost.org/app/f2bwiphp>
 - 报告 bug： <https://github.com/YunoHost-Apps/f2bwiphp_ynh/issues>
