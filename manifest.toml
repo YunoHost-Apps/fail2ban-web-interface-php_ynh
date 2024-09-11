@@ -13,7 +13,6 @@ maintainers = ["ewilly"]
 
 [upstream]
 license = "AGPL-3.0-or-later"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/ewilly/fail2ban-web-interface-php"
 
 [integration]
