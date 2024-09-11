@@ -1,1 +1,3 @@
-This is a dummy description of this app features
+That app allow you to monitor fail2ban and its jails.
+
+In the web interface you can also manually ban / release IP's.
