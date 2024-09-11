@@ -29,7 +29,6 @@ In the web interface you can also manually ban / release IP's.
 
 ## Dokumentasi dan sumber daya
 
-- Dokumentasi pengguna resmi: <https://yunohost.org/apps>
 - Depot kode aplikasi hulu: <https://github.com/ewilly/fail2ban-web-interface-php>
 - Gudang YunoHost: <https://apps.yunohost.org/app/f2bwiphp>
 - Laporkan bug: <https://github.com/YunoHost-Apps/f2bwiphp_ynh/issues>

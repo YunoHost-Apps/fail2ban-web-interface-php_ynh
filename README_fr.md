@@ -29,7 +29,6 @@ Au travers de l'interface web vous pouvez également bannir / débannir manuelle
 
 ## Documentations et ressources
 
-- Documentation officielle utilisateur : <https://yunohost.org/apps>
 - Dépôt de code officiel de l’app : <https://github.com/ewilly/fail2ban-web-interface-php>
 - YunoHost Store : <https://apps.yunohost.org/app/f2bwiphp>
 - Signaler un bug : <https://github.com/YunoHost-Apps/f2bwiphp_ynh/issues>

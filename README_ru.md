@@ -29,7 +29,6 @@ In the web interface you can also manually ban / release IP's.
 
 ## Документация и ресурсы
 
-- Официальная документация пользователя: <https://yunohost.org/apps>
 - Репозиторий кода главной ветки приложения: <https://github.com/ewilly/fail2ban-web-interface-php>
 - Магазин YunoHost: <https://apps.yunohost.org/app/f2bwiphp>
 - Сообщите об ошибке: <https://github.com/YunoHost-Apps/f2bwiphp_ynh/issues>
