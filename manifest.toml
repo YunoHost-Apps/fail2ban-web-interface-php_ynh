@@ -33,10 +33,6 @@ ram.runtime = "50M"
     type = "path"
     default = "/f2bwiphp"
 
-    [install.init_main_permission]
-    type = "group"
-    default = "admins"
-
 [resources]
     [resources.sources]
         [resources.sources.main]
@@ -50,6 +46,10 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    main.auth_header = false
+    main.show_tile = true
+    main.protected= true
+    main.allowed = "admins"
 
     [resources.apt]
     packages = "fail2ban, php8.3-fpm"
