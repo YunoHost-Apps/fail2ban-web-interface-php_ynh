@@ -12,7 +12,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression --message="Upgrading source files..." --weight=1
 
 ynh_setup_source --dest_dir="$install_dir"
-chown -R "$app:www-data" "$install_dir"
+myynh_set_permissions
 
 #=================================================
 # UPDATE A CONFIG FILE
