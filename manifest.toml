@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "f2bwiphp"
-name = "Fail2Ban Webinterface PHP"
+name = "Fail2Ban Webinterface"
 description.en = "Monitor fail2ban and manually ban / release IP's"
 description.fr = "Monitorer fail2ban et bannir ou dé-bannir des IP's"
 
@@ -13,8 +13,6 @@ maintainers = ["ewilly"]
 
 [upstream]
 license = "AGPL-3.0-or-later"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/ewilly/fail2ban-web-interface-php"
 
 [integration]
@@ -35,10 +33,6 @@ ram.runtime = "50M"
     type = "path"
     default = "/f2bwiphp"
 
-    [install.init_main_permission]
-    type = "group"
-    default = "admins"
-
 [resources]
     [resources.sources]
         [resources.sources.main]
@@ -52,6 +46,10 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    main.auth_header = false
+    main.show_tile = true
+    main.protected= true
+    main.allowed = "admins"
 
     [resources.apt]
     packages = "fail2ban, php8.3-fpm"
