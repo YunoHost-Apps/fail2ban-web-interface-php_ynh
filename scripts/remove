@@ -9,25 +9,25 @@ source /usr/share/yunohost/helpers
 #=================================================
 # REMOVE SYSTEM CONFIGURATIONS
 #=================================================
-ynh_script_progression --message="Removing system configurations related to $app..." --weight=1
+ynh_script_progression "Removing system configurations related to $app..."
 
-ynh_remove_systemd_config
+ynh_config_remove_systemd
 
-ynh_remove_nginx_config
+ynh_config_remove_nginx
 
-ynh_remove_fpm_config
+ynh_config_remove_phpfpm
 
-ynh_secure_remove --file="/etc/sudoers.d/$app"
+ynh_safe_rm "/etc/sudoers.d/$app"
 
 #=================================================
 # RESTART SYSTEMD SERVICE
 #=================================================
-ynh_script_progression --message="Restarting fail2ban service..." --weight=1
+ynh_script_progression "Restarting fail2ban service..."
 
-ynh_systemd_action --service_name="fail2ban" --action="restart"
+ynh_systemctl --service="fail2ban" --action="restart"
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Removal of $app completed" --last
+ynh_script_progression "Removal of $app completed"
