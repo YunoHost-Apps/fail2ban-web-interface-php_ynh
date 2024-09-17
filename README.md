@@ -5,9 +5,9 @@ It shall NOT be edited by hand.
 
 # Fail2Ban Webinterface for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/f2bwiphp.svg)](https://ci-apps.yunohost.org/ci/apps/f2bwiphp/) ![Working status](https://ci-apps.yunohost.org/ci/badges/f2bwiphp.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/f2bwiphp.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/fail2ban-web.svg)](https://ci-apps.yunohost.org/ci/apps/fail2ban-web/) ![Working status](https://ci-apps.yunohost.org/ci/badges/fail2ban-web.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/fail2ban-web.maintain.svg)
 
-[![Install Fail2Ban Webinterface with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=f2bwiphp)
+[![Install Fail2Ban Webinterface with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fail2ban-web)
 
 *[Read this README in other languages.](./ALL_README.md)*
 
@@ -30,19 +30,19 @@ In the web interface you can also manually ban / release IP's.
 ## Documentation and resources
 
 - Upstream app code repository: <https://github.com/ewilly/fail2ban-web-interface-php>
-- YunoHost Store: <https://apps.yunohost.org/app/f2bwiphp>
-- Report a bug: <https://github.com/YunoHost-Apps/f2bwiphp_ynh/issues>
+- YunoHost Store: <https://apps.yunohost.org/app/fail2ban-web>
+- Report a bug: <https://github.com/YunoHost-Apps/fail2ban-web_ynh/issues>
 
 ## Developer info
 
-Please send your pull request to the [`testing` branch](https://github.com/YunoHost-Apps/f2bwiphp_ynh/tree/testing).
+Please send your pull request to the [`testing` branch](https://github.com/YunoHost-Apps/fail2ban-web_ynh/tree/testing).
 
 To try the `testing` branch, please proceed like that:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/f2bwiphp_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/fail2ban-web_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade f2bwiphp -u https://github.com/YunoHost-Apps/f2bwiphp_ynh/tree/testing --debug
+sudo yunohost app upgrade fail2ban-web -u https://github.com/YunoHost-Apps/fail2ban-web_ynh/tree/testing --debug
 ```
 
 **More info regarding app packaging:** <https://yunohost.org/packaging_apps>
