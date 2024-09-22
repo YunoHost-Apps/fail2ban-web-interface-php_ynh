@@ -7,7 +7,7 @@ name = "Fail2Ban Webinterface"
 description.en = "Monitor fail2ban and manually ban / release IP's"
 description.fr = "Monitorer fail2ban et bannir ou dé-bannir des IP's"
 
-version = "1.0~ynh1"
+version = "1.0~ynh2"
 
 maintainers = ["ewilly"]
 
