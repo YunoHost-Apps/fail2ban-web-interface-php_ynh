@@ -21,7 +21,7 @@ That app allow you to monitor fail2ban and its jails.
 In the web interface you can also manually ban / release IP's.
 
 
-**分发版本：** 1.0~ynh1
+**分发版本：** 1.0~ynh2
 
 ## 截图
 
