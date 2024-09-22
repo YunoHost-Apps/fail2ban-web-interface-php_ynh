@@ -8,7 +8,8 @@ Type=oneshot
 # Only root can fully execute chmod
 User=root
 Group=root
-ExecStart=/bin/chmod 660 /var/run/fail2ban/fail2ban.sock
+ExecStart=/usr/local/bin/__APP__
+TimeoutStartSec=180
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline

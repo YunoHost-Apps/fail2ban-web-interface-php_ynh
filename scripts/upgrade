@@ -19,6 +19,7 @@ myynh_set_permissions
 #=================================================
 ynh_script_progression "Updating $app's configuration files..."
 
+ynh_config_add --template="systemd.sh" --destination="/usr/local/bin/$app"
 ynh_config_add --template="sudoers" --destination="/etc/sudoers.d/$app"
 
 #=================================================
