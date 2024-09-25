@@ -1,1 +1,1 @@
-Only admins should have access to that app !
+Only admins should have access to that app!

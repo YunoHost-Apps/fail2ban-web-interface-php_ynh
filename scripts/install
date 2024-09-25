@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -24,6 +21,7 @@ ynh_config_add --template="sudoers" --destination="/etc/sudoers.d/$app"
 #=================================================
 # SET PERMISSIONS
 #=================================================
+
 myynh_set_permissions
 
 #=================================================
